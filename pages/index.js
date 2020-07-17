@@ -1,19 +1,23 @@
 import Layout from "../components/Layout"
 import Card from "../components/Card"
+import { getSortedPostsData } from "../lib/posts"
 
-export default function Home() {
+export default function Home({ allPostsData }) {
   return (
     <Layout title="All Posts">
       <div className="container">
         <h1>All posts</h1>
         <hr />
-        <Card
-          title="Rangkuman Basis Data"
-          desc="This is a short desc of something that would go here like lorem ipsum for example. But lorem ipsum is used to frequently so I use this made up phrase instead. On a second thought, making this phrase long enough is quite challenging..."
-          date="12 Juli 2020"
-          category="Basis Data"
-          slug="/something"
-        />
+        {allPostsData.map((post, index) => (
+          <Card
+            key={index}
+            title={post.title}
+            desc={post.desc}
+            date={post.date}
+            category={post.category}
+            slug={post.slug}
+          />
+        ))}
       </div>
       <style jsx>{`
         .container {
@@ -45,4 +49,13 @@ export default function Home() {
       `}</style>
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData()
+  return {
+    props: {
+      allPostsData
+    }
+  }
 }

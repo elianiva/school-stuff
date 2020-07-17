@@ -51,6 +51,7 @@ export default function Card({ title, desc, date, category, slug }) {
           margin-top: 1rem;
           font-weight: 600;
           font-family: "Open Sans", sans-serif;
+          text-transform: capitalize;
         }
       `}</style>
     </>
