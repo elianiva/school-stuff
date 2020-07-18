@@ -7,7 +7,13 @@ export default function Card({ title, desc, date, category, slug }) {
         <a className="container">
           <h1>{title}</h1>
           <span>{date}</span>
-          <p>{desc}</p>
+          <p>
+            {desc
+              .split(" ")
+              .slice(0, 30)
+              .join(" ")}
+            ...
+          </p>
           <div className="category">{category}</div>
         </a>
       </Link>
