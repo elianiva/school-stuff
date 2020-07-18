@@ -2,7 +2,7 @@ import Layout from "../components/Layout"
 import Card from "../components/Card"
 import { getSortedPostsData } from "../lib/posts"
 
-export default function Home({ allPostsData }) {
+export default function Home({ allPostsData, slug }) {
   return (
     <Layout title="All Posts">
       <div className="container">
