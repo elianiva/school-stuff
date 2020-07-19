@@ -23,6 +23,7 @@ export default function Home({ allPostsData, slug }) {
         .container {
           margin: 0 auto;
           max-width: 80ch;
+          padding: 0 1rem;
         }
 
         h1 {

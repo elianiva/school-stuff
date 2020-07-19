@@ -18,6 +18,7 @@ export default function Post({ postData }) {
           .container {
             max-width: 80ch;
             margin: 0 auto;
+            padding: 0 1rem;
           }
           h1 {
             font-family: "PT Sans", Arial, sans-serif;

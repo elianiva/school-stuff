@@ -37,7 +37,7 @@ export default function Footer() {
         {`
           footer {
             border-top: 0.125rem #d4e1ef solid;
-            padding: 2rem;
+            padding: 1rem 2rem;
             margin-top: 2rem;
           }
           div {
