@@ -22,6 +22,7 @@ export default function Navbar() {
           border-bottom: 0.125rem #d4e1ef solid;
           margin-bottom: 2rem;
           padding: 1rem;
+          font-family: "PT Sans", sans-serif;
         }
         .container {
           display: flex;

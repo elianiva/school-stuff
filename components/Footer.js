@@ -22,13 +22,13 @@ export default function Footer() {
             </a>
           </p>
           <p>
-            Source code is availabel{" "}
+            Source code is available{" "}
             <a
               href="https://github.com/elianiva/school-log"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Here
+              here
             </a>
           </p>
         </div>
@@ -39,6 +39,7 @@ export default function Footer() {
             border-top: 0.125rem #d4e1ef solid;
             padding: 1rem 2rem;
             margin-top: 2rem;
+            font-family: "PT Sans", sans-serif;
           }
           div {
             margin: 0 auto;
@@ -49,6 +50,9 @@ export default function Footer() {
             font-weight: 600;
             color: #5c90ff;
             text-decoration: none;
+          }
+          p {
+            line-height: 2rem;
           }
         `}
       </style>

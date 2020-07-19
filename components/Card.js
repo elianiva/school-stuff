@@ -44,7 +44,6 @@ export default function Card({ title, desc, date, category, slug }) {
 
         p {
           line-height: 1.5rem;
-          font-family: "Open Sans", sans-serif;
           color: #292d3e;
         }
 
@@ -56,7 +55,6 @@ export default function Card({ title, desc, date, category, slug }) {
           border-radius: 0.25rem;
           margin-top: 1rem;
           font-weight: 600;
-          font-family: "Open Sans", sans-serif;
           text-transform: capitalize;
         }
       `}</style>

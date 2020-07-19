@@ -19,9 +19,9 @@ export default function Post({ postData }) {
             max-width: 80ch;
             margin: 0 auto;
             padding: 0 1rem;
+            font-family: "PT Sans", Arial, sans-serif;
           }
           h1 {
-            font-family: "PT Sans", Arial, sans-serif;
             text-align: center;
             font-size: 1.75rem;
             line-height: 2rem;
@@ -40,7 +40,6 @@ export default function Post({ postData }) {
             display: block;
             color: #ababba;
             font-weight: 600;
-            font-family: "Open Sans", sans-serif;
           }
         `}</style>
       </Layout>
