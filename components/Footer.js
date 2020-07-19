@@ -3,8 +3,34 @@ export default function Footer() {
     <>
       <footer>
         <div>
-          This is is built using <a href="https://nextjs.org">Next JS</a> and
-          hosted on Vercel
+          <p>
+            This is is built using{" "}
+            <a
+              href="https://nextjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Next JS
+            </a>{" "}
+            and hosted on{" "}
+            <a
+              href="https://vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Vercel
+            </a>
+          </p>
+          <p>
+            Source code is availabel{" "}
+            <a
+              href="https://github.com/elianiva/school-log"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Here
+            </a>
+          </p>
         </div>
       </footer>
       <style jsx>
@@ -18,6 +44,11 @@ export default function Footer() {
             margin: 0 auto;
             max-width: 800px;
             text-align: center;
+          }
+          a {
+            font-weight: 600;
+            color: #5c90ff;
+            text-decoration: none;
           }
         `}
       </style>
