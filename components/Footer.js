@@ -4,7 +4,7 @@ export default function Footer() {
       <footer>
         <div>
           <p>
-            This is is built using{" "}
+            Web ini dibangun menggunakan{" "}
             <a
               href="https://nextjs.org"
               target="_blank"
@@ -12,7 +12,7 @@ export default function Footer() {
             >
               Next JS
             </a>{" "}
-            and hosted on{" "}
+            dan dihosting di{" "}
             <a
               href="https://vercel.app"
               target="_blank"
@@ -22,13 +22,13 @@ export default function Footer() {
             </a>
           </p>
           <p>
-            Source code is available{" "}
+            Kode sumber ada pada{" "}
             <a
               href="https://github.com/elianiva/school-log"
               target="_blank"
               rel="noopener noreferrer"
             >
-              here
+              repositori berikut
             </a>
           </p>
         </div>

@@ -4,7 +4,7 @@ import { getSortedPostsData } from "../lib/posts"
 
 export default function Home({ allPostsData, slug }) {
   return (
-    <Layout title="All Posts">
+    <Layout title="Semua catatan">
       <div className="container">
         <h1>All posts</h1>
         <hr />
