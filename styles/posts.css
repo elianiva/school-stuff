@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 
 body {
   padding: 0;
@@ -22,10 +23,44 @@ body {
 
 .content h1 {
   font-size: 1.5rem;
-  margin: 0 0 0.5rem 0;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+.content h2 {
+  font-size: 1.25rem;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+.content h2::before {
+  content: "• ";
+  color: #5c90ff;
 }
 
 .content h1::before {
   content: "# ";
   color: #5c90ff;
+}
+
+.content code {
+  padding: 0.125rem 0.5rem;
+  color: #1c64f2;
+  border-radius: 0.25rem;
+  font-family: "Fira Code", monospace;
+}
+
+.content pre {
+  background-color: #292d3e;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  font-size: 1rem;
+}
+
+.content pre code {
+  color: #efefef;
+  padding: 0;
+}
+
+.content img {
+  width: 100%;
 }
