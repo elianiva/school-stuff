@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Card({ title, desc, date, category, slug }) {
   return (
     <>
-      <Link href={slug}>
+      <Link href="/[category]/[id]" as={`/${slug}`}>
         <a className="container">
           <h1>{title}</h1>
           <span>{date}</span>
