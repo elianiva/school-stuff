@@ -26,7 +26,7 @@ export default function Post({ postData }) {
             font-size: 1.75rem;
             line-height: 2rem;
             margin: 0;
-            color: #292d3e;
+            color: #1d2021;
           }
           hr {
             background-color: #d79921;

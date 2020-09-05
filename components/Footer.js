@@ -37,6 +37,7 @@ export default function Footer() {
         {`
           footer {
             border-top: 0.125rem #ebdbb2 solid;
+            background-color: #fffbf0;
             padding: 1rem 2rem;
             margin-top: 2rem;
             font-family: "PT Sans", sans-serif;

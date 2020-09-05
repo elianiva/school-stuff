@@ -104,3 +104,9 @@ body {
 .content table td:nth-child(1) {
   text-align: center;
 }
+
+.content a {
+  text-decoration: none;
+  color: #d79921;
+  font-weight: 600;
+}

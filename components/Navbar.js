@@ -24,6 +24,7 @@ export default function Navbar() {
       <style jsx>{`
         nav {
           border-bottom: 0.125rem #ebdbb2 solid;
+          background-color: #fffbf0;
           margin-bottom: 2rem;
           padding: 1rem;
           font-family: "PT Sans", sans-serif;

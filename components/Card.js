@@ -24,7 +24,8 @@ export default function Card({ title, desc, date, category, slug }) {
           border-radius: 0.5rem;
           max-width: 80ch;
           margin: 1rem auto;
-          border: 1px solid #d4e1ef;
+          border: 1px solid #ebdbb2;
+          background-color: #fffbf0;
           padding: 1rem;
           font-family: "PT Sans", Arial, sans-serif;
         }
@@ -32,25 +33,25 @@ export default function Card({ title, desc, date, category, slug }) {
         h1 {
           font-size: 1.5rem;
           line-height: 2rem;
-          color: #292d3e;
+          color: #1d2021;
         }
 
         span {
           display: block;
-          color: #a3b1be;
+          color: #d79921;
           margin-bottom: 0.5rem;
           line-height: 1.5rem;
         }
 
         p {
           line-height: 1.5rem;
-          color: #292d3e;
+          color: #1d2021;
         }
 
         .category {
           display: inline-block;
-          background-color: #e1effe;
-          color: #1c64f2;
+          background-color: #ffdfa0;
+          color: #ab7a1c;
           padding: 0.5rem;
           border-radius: 0.25rem;
           margin-top: 1rem;
