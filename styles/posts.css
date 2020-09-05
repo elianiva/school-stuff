@@ -4,6 +4,17 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #fff8e6;
+}
+
+.content pre::-webkit-scrollbar-thumb {
+  background-color: #d79921;
+  height: 0.5rem;
+}
+
+.content pre::-webkit-scrollbar {
+  background-color: #ebdbb2;
+  height: 0.5rem;
 }
 
 .content {
@@ -11,7 +22,7 @@ body {
   padding: 0 1rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  color: #292d3e;
+  color: #282828;
   font-family: "PT Sans", sans-serif;
 }
 
@@ -33,23 +44,23 @@ body {
 
 .content h2::before {
   content: "• ";
-  color: #5c90ff;
+  color: #d79921;
 }
 
 .content h1::before {
   content: "# ";
-  color: #5c90ff;
+  color: #d79921;
 }
 
 .content code {
   padding: 0.125rem 0.5rem;
-  color: #1c64f2;
+  color: #d79921;
   border-radius: 0.25rem;
   font-family: "Fira Code", monospace;
 }
 
 .content pre {
-  background-color: #292d3e;
+  background-color: #282828;
   padding: 1rem;
   border-radius: 0.5rem;
   overflow-x: auto;
@@ -57,12 +68,14 @@ body {
 }
 
 .content pre code {
-  color: #efefef;
+  color: #fff8e6;
   padding: 0;
 }
 
 .content img {
   width: 100%;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0;
 }
 
 .content table {
@@ -71,16 +84,16 @@ body {
 
 .content table,
 .content table tr {
-  border: 1px #b0b0b0 solid;
+  border: 1px #ebdbb2 solid;
   border-collapse: collapse;
 }
 
 .content table tr:nth-child(odd) {
-  background-color: #f4f4f4;
+  background-color: #fff4d9;
 }
 
 .content table tr th {
-  background-color: #ffffff;
+  background-color: #fff8e6;
 }
 
 .content table th,

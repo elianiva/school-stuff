@@ -11,15 +11,19 @@ export default function Navbar() {
             </Link>
           </div>
           <div>
-            <Link href="/category">
-              <a className="link">Category</a>
-            </Link>
+            <a
+              className="link"
+              href="https://elianiva.github.io"
+              target="blank"
+            >
+              Blog
+            </a>
           </div>
         </div>
       </nav>
       <style jsx>{`
         nav {
-          border-bottom: 0.125rem #d4e1ef solid;
+          border-bottom: 0.125rem #ebdbb2 solid;
           margin-bottom: 2rem;
           padding: 1rem;
           font-family: "PT Sans", sans-serif;

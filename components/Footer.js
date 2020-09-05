@@ -36,7 +36,7 @@ export default function Footer() {
       <style jsx>
         {`
           footer {
-            border-top: 0.125rem #d4e1ef solid;
+            border-top: 0.125rem #ebdbb2 solid;
             padding: 1rem 2rem;
             margin-top: 2rem;
             font-family: "PT Sans", sans-serif;
@@ -48,7 +48,7 @@ export default function Footer() {
           }
           a {
             font-weight: 600;
-            color: #5c90ff;
+            color: #d79921;
             text-decoration: none;
           }
           p {

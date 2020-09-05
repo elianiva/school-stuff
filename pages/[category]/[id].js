@@ -29,7 +29,7 @@ export default function Post({ postData }) {
             color: #292d3e;
           }
           hr {
-            background-color: #5c90ff;
+            background-color: #d79921;
             height: 0.125rem;
             border-radius: 0.5rem;
             border: none;
@@ -38,7 +38,7 @@ export default function Post({ postData }) {
           span {
             text-align: center;
             display: block;
-            color: #ababba;
+            color: #d79921;
             font-weight: 600;
           }
         `}</style>

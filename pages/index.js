@@ -34,7 +34,7 @@ export default function Home({ allPostsData, slug }) {
 
         hr {
           width: 10rem;
-          background-color: #5c90ff;
+          background-color: #d79921;
           height: 0.25rem;
           border-radius: 0.5rem;
           border: none;
