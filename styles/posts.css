@@ -64,3 +64,30 @@ body {
 .content img {
   width: 100%;
 }
+
+.content table {
+  margin: 1rem 0;
+}
+
+.content table,
+.content table tr {
+  border: 1px #b0b0b0 solid;
+  border-collapse: collapse;
+}
+
+.content table tr:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+.content table tr th {
+  background-color: #ffffff;
+}
+
+.content table th,
+.content table td {
+  padding: 0.5rem 1rem;
+}
+
+.content table td:nth-child(1) {
+  text-align: center;
+}
