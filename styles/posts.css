@@ -82,6 +82,10 @@ body {
   margin: 1rem 0;
 }
 
+.content .tabel {
+  overflow-x: auto;
+}
+
 .content table,
 .content table tr {
   border: 1px #ebdbb2 solid;
