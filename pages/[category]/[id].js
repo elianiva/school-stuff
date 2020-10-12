@@ -23,8 +23,8 @@ export default function Post({ postData }) {
           }
           h1 {
             text-align: center;
-            font-size: 1.75rem;
-            line-height: 2rem;
+            font-size: 2.5rem;
+            line-height: 3rem;
             margin: 0;
             color: #1d2021;
           }
