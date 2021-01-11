@@ -10,15 +10,6 @@ export default function Navbar() {
               <a className="link">Posts</a>
             </Link>
           </div>
-          <div>
-            <a
-              className="link"
-              href="https://elianiva.github.io"
-              target="blank"
-            >
-              Blog
-            </a>
-          </div>
         </div>
       </nav>
       <style jsx>{`
